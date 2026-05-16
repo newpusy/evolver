@@ -41,7 +41,6 @@
 <!-- 個人メモ: このフォークは学習目的で作成。GEP の仕組みを理解するために読み進めている。
      arXiv 論文も合わせて読むと Gene と Skill の違いがよく分かる。
      TODO: Capsule の実装部分を重点的に読む。Gene の符号化フローが特に気になる。
-     メモ: ライセンスが GPL-3.0 なので商用利用には注意すること。 -->
-
-**3行で説明**
-- **何であるか**: AIエージェントのための[GEP](https://ev
+     2026-05-10: src/gep/gene.js の encode() 関数を読んだ。Capsule との関係が少し見えてきた。
+     次は evolver.config.js のデフォルト値（maxGenerations, mutationRate）を確認する。
+   -->
