@@ -40,7 +40,12 @@
       "src/**/*.js",
       "!src/index.js"
     ],
-    "verbose": true
+    "verbose": true,
+    "coverageThreshold": {
+      "global": {
+        "lines": 70
+      }
+    }
   },
   "engines": {
     "node": ">=16.0.0"
