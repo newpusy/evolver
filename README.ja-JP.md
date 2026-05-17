@@ -41,6 +41,7 @@
 <!-- 個人メモ: このフォークは学習目的で作成。GEP の仕組みを理解するために読み進めている。
      arXiv 論文も合わせて読むと Gene と Skill の違いがよく分かる。
      TODO: Capsule の実装部分を重点的に読む。Gene の符号化フローが特に気になる。
-     2026-05-10: src/gep/gene.js の encode() 関数を読んだ。Capsule との関係が少し見えてきた。
-     次は evolver.config.js のデフォルト値（maxGenerations, mutationRate）を確認する。
+     2026-05-10: Gene の符号化フロー（src/gep/encode.js）を一通り読んだ。
+       mutate() がデフォルトで top-k=3 を使っているのが興味深い。論文の設定と一致している。
+     TODO: 次は Capsule のマージ戦略（merge strategy）を確認する。
    -->
